@@ -44,5 +44,13 @@ A plataforma fundamenta-se numa arquitetura de Single Page Application (SPA) con
 * **SEO Dinâmico:** A implementação de estratégias específicas para SPAs melhora a visibilidade nos motores de busca e atrai tráfego orgânico.
 * **Manutenção Simplificada:** A separação de camadas facilita a identificação e resolução de problemas, assim como a implementação de atualizações.
 
+**Vendas SEO do SPA (com implementação adequada):**
+
+* **Carga Única Inicial:** Após o carregamento inicial da aplicação, as transições entre páginas são incrivelmente rápidas porque apenas os dados são carregados e o HTML/CSS/JS necessário, sem uma página completa.
+* **Menor Consumo de Ancho de Banda (a longo prazo):** Uma vez que o SPA foi carregado inicialmente, as subsequentes navegações apenas de dados intercambiais (JSON) em vez de HTML/CSS/JS completos, o que pode reduzir o consumo de ancho de banda e, possivelmente, os custos do servidor. Isso também contribuiu para a velocidade permitida.
+* **Controlo fino do URL com o Vue Router:** Mesmo sendo "página única", o SPA utiliza a API de histórico do browser para alterar o URL na barra de direcções sem recarregar a página por completo. Isto permite que cada "vista" do SPA tenha o seu próprio URL único e compatível, o que é fundamental para o SEO.
+* **Gestão de títulos e meta descrições::** O título e as meta descrições são atualizados dinamicamente em cada página, com cada alteração de rota.
+* A sua venda é um melhor posicionamento, sempre e quando implementa uma estratégia de SEO consciente que aborda os desafios de rastreio e indexação de JavaScript.
+
 **Conclusão:**
 A plataforma de ecommerce desenvolvida com Quasar v2, Vue 3, Node.js, Express, MariaDB e armazenamento compatível com S3, representa uma solução moderna, leve e altamente adaptável para o comércio eletrónico. O seu foco na eficiência, na modularidade e na conformidade regulatória posiciona-a como uma ferramenta poderosa para empresas que procuram uma presença online eficaz e escalável. A estratégia de desenvolvimento como uma SPA conectada a uma API centralizada oferece uma flexibilidade excecional para a expansão a diferentes nichos de mercado e modelos de negócio como o dropshipping. A atenção dedicada ao SEO dinâmico assegura que a plataforma pode competir eficazmente no ambiente digital.
