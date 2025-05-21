@@ -1,6 +1,6 @@
 # SHOPPRO
 
-## Lightweight and Adaptable Ecommerce Platform
+## Headless Commerce / API-First Platform
 
 **Introduction:**
 This report outlines the architecture and fundamental features of an e-commerce platform developed with Quasar v2 and Vue 3, designed to offer an agile and efficient user experience while adhering to European regulations and facilitating scalability through a centralized API.
