@@ -1,5 +1,5 @@
 # SHOPPRO
-# Plataforma de Ecommerce Ligera y Adaptable
+# Plataforma Headless Commerce / API-First
 
 **Introducción:**
 
@@ -44,6 +44,14 @@ La plataforma se fundamenta en una arquitectura de Single Page Application (SPA)
 * **Cumplimiento Normativo:** El enfoque proactivo en la integración de los requisitos legales europeos asegura que la plataforma puede operar dentro del marco normativo vigente y adaptarse a futuros cambios.
 * **SEO Dinámico:** La implementación de estrategias específicas para SPAs mejora la visibilidad en los motores de búsqueda y atrae tráfico orgánico.
 * **Mantenimiento Simplificado:** La separación de capas facilita la identificación y resolución de problemas, así como la implementación de actualizaciones.
+
+**Ventajas SEO de las SPA (con una implementación adecuada):**
+
+* **Carga Inicial Única:** Después de la carga inicial de la aplicación, las transiciones entre páginas son increíblemente rápidas porque solo se cargan los datos y el HTML/CSS/JS necesarios, no una página completa.
+* **Menor Consumo de Ancho de Banda (a largo plazo):** Una vez que el SPA se ha cargado inicialmente, las subsiguientes navegaciones solo intercambian datos (JSON) en lugar de HTML/CSS/JS completos, lo que puede reducir el consumo de ancho de banda y, potencialmente, los costes del servidor. Esto también contribuye a la velocidad percibida.
+* **Control Fino de la URL con Vue Router:** Aunque son "single page", las SPA utilizan la History API del navegador para cambiar la URL en la barra de direcciones sin una recarga completa de la página. Esto permite que cada "vista" de la SPA tenga su propia URL única y compartible, lo cual es fundamental para el SEO .
+* **Gestión de Títulos y Meta Descripciones::** Se actualiza dinámicamente en cada página, el título y las meta descripciones con cada cambio de ruta.
+* Su ventaja es un mejor posicionamiento, siempre y cuando se implementen con una estrategia SEO consciente que aborde los desafíos del rastreo y la indexación de JavaScript.
 
 **Conclusión:**
 
